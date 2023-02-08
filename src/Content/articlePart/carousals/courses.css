@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
 .courses {
     display: flex;
     flex-direction: row;
@@ -10,8 +13,16 @@
 
 .course {
     flex-shrink: 0;
-    flex-basis: 30em;
+    /* width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    margin-inline-start: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    flex-basis: 25em;
     scroll-snap-align: start;
+    background-color: #0e0f13;
 }
 
 img {
