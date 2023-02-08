@@ -1,0 +1,56 @@
+article section {
+    display: inline-block;
+    width: 70%;
+}
+
+aside {
+    background-color: aquamarine;
+    float: right;
+    margin: 1em;
+    padding: 5em;
+}
+
+.profile-pix {
+    width: 20em;
+    height: 25em;
+}
+
+.clocky {
+    position: relative;
+    top: 6em;
+    left: 15em
+}
+
+.star {
+    position: relative;
+    top: 2em;
+    left: 8em;
+}
+
+.play {
+    position: relative;
+    top: 1em;
+    left: 16em;
+}
+
+.x-mark {
+    position: relative;
+    top: 0.5em;
+    left: 6em;
+}
+
+.greater-than-symbol {
+    position: relative;
+    top: 0.7em;
+    left: 7em;
+}
+
+h3 {
+    width: 6em;
+    margin: 0px;
+}
+
+.viewport-page {
+    height: 95.40vh;
+    width: 100%;
+}

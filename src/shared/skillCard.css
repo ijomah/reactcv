@@ -1,0 +1,25 @@
+.progress-bar {
+    display: inline-block;
+    width: 10em;
+    border: 1px solid gray;
+    height: 0.5em;
+    background-color: aquamarine;
+    /* border-end-end-radius: 1em;
+    border-end-start-radius: 1em;
+    border-start-end-radius: 1em;
+    border-start-start-radius: 1em ; */
+    border-radius: 1em;
+}
+
+.progress-bar-indicator {
+    display: inline-block;
+    height: 5em;
+    width: 6em;
+    margin: 2px;
+    background-color: aquamarine;
+
+}
+
+.skill-card {
+    display: flex;
+}

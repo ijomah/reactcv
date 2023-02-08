@@ -1,0 +1,15 @@
+.foot {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* top: 62vh; */
+    top: 90vh;
+    background-color: greenyellow;
+    width: 55.6%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.foot div {
+    margin: 1em;
+}

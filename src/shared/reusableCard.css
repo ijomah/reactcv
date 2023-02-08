@@ -1,0 +1,25 @@
+.cardly {
+    width: 40%;
+    margin-inline-start: 3em;
+    border: solid 2px #61dafb;
+  }
+  
+  .x-card div {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .x-card div h3 {
+    margin-block-start: 0px;
+    margin-inline-start: 0.3em;
+  }
+  
+  .cardly-head, .cardly-body {
+    border: solid 1px #61dafb;
+    padding-inline-start: 0.5em;
+  }
+
+  .cardly-footer {
+    background-color: #61dafb;
+    padding-inline-start: 0.5em;
+  }
