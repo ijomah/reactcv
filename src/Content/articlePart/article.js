@@ -13,24 +13,29 @@ function MainArticle() {
     return (
         <article>
             <section className="viewport-page">
-            <h3>Hello, 
-                <FontAwesomeIcon icon="fa-solid fa-hand" opacity={1} shake size="2x" color="#ffc83d" />
-                
-            </h3>
+                <div className="intro">
+                    <h3>Hello, 
+                        <FontAwesomeIcon icon="fa-solid fa-hand" opacity={1} shake size="2x" color="#ffc83d" />
+                        
+                    </h3>
             
-                <h3>Meet</h3>
+                    <h3>Meet</h3>
                
-                <h1>Ijomah Jacob Ifinwa</h1>
+                    <h1>Ijomah Jacob Ifinwa</h1>
+                </div>
                 <div className="decorated-icons">
-                <FontAwesomeIcon icon="fa-solid fa-greater-than" opacity={0.1} className="greater-than-symbol" size="3x" />
-                    <FontAwesomeIcon icon="fa-regular fa-clock" opacity={0.1} className="clocky" size="3x" spin />
-                    <FontAwesomeIcon icon="fa-solid fa-play" opacity={0.1} className="play" size="3x" />
                     
-                    <FontAwesomeIcon icon="fa-solid fa-xmark" opacity={0.1} className="x-mark" size="3x" />
-                    <FontAwesomeIcon icon="fa-solid fa-star" opacity={0.1} className="star" size="3x" spinPulse />
+                    <p><FontAwesomeIcon icon="fa-solid fa-xmark" opacity={0.1} className="x-mark" size="3x" /></p>
+                    <div>
+                        <p><FontAwesomeIcon icon="fa-regular fa-clock" opacity={0.1} className="clocky" size="3x" spin /></p>
+                        <p><FontAwesomeIcon icon="fa-solid fa-play" opacity={0.1} className="play" size="3x" /></p>
+                        <p><FontAwesomeIcon icon="fa-solid fa-star" opacity={0.1} className="star" size="3x" spinPulse /></p>
+                    </div>
+                    <p><FontAwesomeIcon icon="fa-solid fa-greater-than" opacity={0.1} className="greater-than-symbol" size="3x" /></p>
                     
-                    <FontAwesomeIcon icon="fa-solid fa-list" opacity={0.1} className="list" size="3x" />
-                    <FontAwesomeIcon icon="fa-solid fa-circle" opacity={0.1} className="circle" size="3x" />
+                    {/* <p><FontAwesomeIcon icon="fa-solid fa-list" opacity={0.1} className="list" size="3x" /></p> */}
+                    <p><FontAwesomeIcon icon="fa-solid fa-circle" opacity={0.1} className="circle" size="3x" /></p>
+                    
                 </div>
             </section>
             <aside>

@@ -7,7 +7,7 @@ class SkillCard extends React.Component {
     render() {
         return (
             <div className="skill-card">
-                <div className="skill-carldly1">
+                <div className="skill-cardly1">
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
@@ -52,7 +52,7 @@ class SkillCard extends React.Component {
 
                 </div>
 
-                <div className="skill-carldly2">
+                <div className="skill-cardly2">
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
@@ -93,7 +93,7 @@ class SkillCard extends React.Component {
 
                 </div>
 
-                <div className="skill-carldly3">
+                <div className="skill-cardly3">
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
@@ -134,7 +134,7 @@ class SkillCard extends React.Component {
 
                 </div>
 
-                <div className="skill-carldly4">
+                <div className="skill-cardly4">
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
@@ -175,7 +175,7 @@ class SkillCard extends React.Component {
 
                 </div>
 
-                <div className="skill-carldly5">
+                <div className="skill-cardly5">
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
@@ -215,7 +215,6 @@ class SkillCard extends React.Component {
                     <div className="skill-cardly-foot"></div>
 
                 </div>
-
             </div>
         )
     }

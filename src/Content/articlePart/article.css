@@ -3,6 +3,45 @@ article section {
     width: 70%;
 }
 
+.intro {
+    position: relative;
+    left: 45%;
+    top: 10em;
+}
+
+.decorated-icons {
+    margin-inline: 0.5em;
+    height: 33em;
+}
+
+.decorated-icons p {
+    width: 10%;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 6em;
+}
+
+.decorated-icons > :nth-child(3) {
+    margin-inline-start: 5em;
+}
+
+.decorated-icons div {
+    position: relative;
+    top: -9em;
+    float: right;
+    height: 20em;
+    width: 10em;
+}
+
+.decorated-icons div > p {
+    display: grid;
+    grid-template-rows: 8em;
+}
+
+.decorated-icons div :nth-child(2)  {
+    margin-inline-start: 5em;
+}
+
 aside {
     background-color: aquamarine;
     float: right;
@@ -15,34 +54,30 @@ aside {
     height: 25em;
 }
 
-.clocky {
-    position: relative;
-    top: 6em;
-    left: 15em
+/* .clocky {
+    top: -2em;
+    left: calc(100% - 5em);
 }
 
 .star {
-    position: relative;
-    top: 2em;
-    left: 8em;
+    top: 3em;
+    left: calc(100% - 12em);
 }
 
 .play {
-    position: relative;
     top: 1em;
-    left: 16em;
-}
+    left: calc(100% - 10em);
+} */
 
 .x-mark {
-    position: relative;
-    top: 0.5em;
-    left: 6em;
+    position: static;
+    top: 5em;
+    left: calc(100% - 25em);
 }
 
 .greater-than-symbol {
-    position: relative;
-    top: 0.7em;
-    left: 7em;
+    top: 7em;
+    left: calc(100% - 25em);
 }
 
 h3 {

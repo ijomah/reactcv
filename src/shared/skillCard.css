@@ -20,6 +20,30 @@
 
 }
 
-.skill-card {
-    display: flex;
+@media (min-width:310px) and (max-width: 349px ) {
+    .skill-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+    }
+}
+
+@media (min-width:350px) and (max-width: 694px) {
+    .skill-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+
+@media (min-width: 695px) {
+    .skill-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .skill-card {
+        display: flex;
+    }
 }
