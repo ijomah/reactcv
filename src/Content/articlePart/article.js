@@ -44,7 +44,7 @@ function MainArticle() {
             
             <section className="cards">
               <img className="profile-pix" src={jc1} alt="site owner"  />
-                ABOUT ME
+                {/* ABOUT ME */}
             </section>
 
             <section className="skill-section">

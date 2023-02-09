@@ -23,11 +23,13 @@ function BooksRead() {
                 </div>
                 <div className="book-body">
                     <img className="seven-habits" src={habit} alt="Books with title as goals" />
-                    <p>Book extract</p>
+                    <p> 
+                        <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" />
+                    </p>
                 </div>
-                <div className="book-footer">
+                {/* <div className="book-footer">
                     <i>love icon <FontAwesomeIcon icon="fa-regular fa-heart" /></i>
-                </div>
+                </div> */}
             </div>
 
             <div className="books">
@@ -41,11 +43,11 @@ function BooksRead() {
                 </div>
                 <div className="book-body">
                     <img className="goals" src={goals} alt="Books with title as goals" />
-                    <p>Book extract</p>
+                    <p><FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></p>
                 </div>
-                <div className="book-footer">
+                {/* <div className="book-footer">
                     <i>love icon <FontAwesomeIcon icon="fa-regular fa-heart" /></i>
-                </div>
+                </div> */}
             </div>
 
             <div className="books">
@@ -59,11 +61,11 @@ function BooksRead() {
                 </div>
                 <div className="book-body">
                     <img className="sucex-law" src={sucexLawByHill} alt="Books with title as goals" />
-                    <p>Book extract</p>
+                    <p><FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></p>
                 </div>
-                <div className="book-footer">
+                {/* <div className="book-footer">
                     <i>love icon <FontAwesomeIcon icon="fa-regular fa-heart" /></i>
-                </div>
+                </div> */}
             </div>
 
             {/* <div className="books">

@@ -3,7 +3,7 @@ import React from "react"
 import MainArticle from "../Content/articlePart/article"
 import FooterPart from "../Content/footer/footNote"
 //import Navigation from "../Content/header/navigation"
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 
 
 class Content extends React.Component {
@@ -17,7 +17,7 @@ class Content extends React.Component {
                 <main>
                     <MainArticle />
                 </main>
-<img src={logo} alt="smiley emoji" width="250" height="250" />
+{/* <img src={logo} alt="smiley emoji" width="250" height="250" /> */}
                 <footer>
                     <FooterPart />
                 </footer>

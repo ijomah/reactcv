@@ -4,6 +4,7 @@ nav {
     justify-content: center;
     gap: 10%;
     margin-inline: 25%;
+    margin-block-start: 3em;
 }
 
 nav div {
@@ -12,5 +13,5 @@ nav div {
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: #0ECAEB;
 }

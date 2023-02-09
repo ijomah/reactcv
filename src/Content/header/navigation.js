@@ -21,7 +21,7 @@ function Navigation() {
                     <Link className="nav-link" to='/book'>
                         <div>Books <FontAwesomeIcon icon="fa-solid fa-book" color="white" /></div>
                     </Link>
-                    <Link className="nav-link" to='https://app.pluralsight.com/achievements/share/3222515c-c711-43bc-89ba-eac524dd8bfc'>
+                    <Link className="nav-link" to='/fun'>
                         <div>Fun Fact <FontAwesomeIcon icon="fa-solid fa-face-smile-wink" color="white" /></div>
                     </Link>
                     <Link className="nav-link" to='project'>
