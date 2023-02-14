@@ -1,18 +1,19 @@
 .cardly {
-    width: 40%;
-    margin-inline-start: 3em;
+    width: 75%;
+    /* margin-inline-start: 3em; */
     border: solid 2px #61dafb;
+    margin-block-start: 2em;
   }
   
-  .x-card div {
-    display: flex;
+  /* .x-card div {
+    display: inline-block;
     flex-direction: row;
-  }
+  } */
   
-  .x-card div h3 {
+  /* .x-card div p {
     margin-block-start: 0px;
     margin-inline-start: 0.3em;
-  }
+  } */
   
   .cardly-head, .cardly-body {
     border: solid 1px #61dafb;

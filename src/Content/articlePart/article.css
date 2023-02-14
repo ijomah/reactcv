@@ -1,47 +1,12 @@
+article {
+    margin-inline: 1em;
+    margin-block-start: 5em;
+}
 article section {
     display: inline-block;
     width: 70%;
 }
 
-.intro {
-    position: relative;
-    left: 45%;
-    top: 10em;
-    width: 15em;
-}
-
-.decorated-icons {
-    margin-inline: 0.5em;
-    height: 33em;
-}
-
-.decorated-icons p {
-    width: 10%;
-    margin: 0;
-    display: grid;
-    grid-template-rows: 6em;
-}
-
-.decorated-icons > :nth-child(3) {
-    margin-inline-start: 5em;
-}
-
-.decorated-icons div {
-    position: relative;
-    top: -9em;
-    float: right;
-    height: 20em;
-    width: 10em;
-}
-
-.decorated-icons div > p {
-    display: grid;
-    grid-template-rows: 8em;
-}
-
-.decorated-icons div :nth-child(2)  {
-    margin-inline-start: 5em;
-}
 
 aside {
     background-color: #4a5354;

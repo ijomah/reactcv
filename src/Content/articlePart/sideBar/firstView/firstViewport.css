@@ -1,0 +1,29 @@
+.grided-view {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5em;
+
+}
+
+.left-icons {
+    padding-inline-start: 4.3em;
+
+}
+
+.right-icons {
+    width: min-content;
+    padding-inline-start: 8em;
+}
+
+.right-icons :nth-child(2), .left-icons :nth-child(2) {
+    /* width: 50%; */
+    margin-inline-start: 8em;
+}
+
+.grided-view div p {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1em;
+}
+
+

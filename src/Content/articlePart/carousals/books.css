@@ -2,17 +2,12 @@
     width: 25em;
     margin-block-start: 5em;
     margin-inline-start: 3em;
-    margin-block-end: 5em;
+    margin-block-end: 2em;
 }
 
 .book-footer {
     background-color: #0ECAEB;
 }
-
-/* .sucex-law, .goals, .seven-habits {
-    width: 20em;
-    height: 22px;
-} */
 
 .row-it {
         display: flex;
@@ -20,13 +15,36 @@
         flex: 1;
 }
 
-.book-body img {
-    max-width: 100%;
-    height: 50vh;
-    /* margin-inline-start: calc(100% - 22em); */
-    
-}
-
 .book-body {
     padding-inline: 4em;
 }
+
+.book-body img {
+    max-width: 100%;
+    height: 40vh;
+}
+
+.book-body > p {
+    margin-block-start: 0;
+}
+
+@media (max-width: 768px) {
+    .row-it {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book-body {
+        padding-inline: 1em;
+    }
+
+    .books {
+        width: 15em;
+        margin-block-start: 5em;
+        margin-inline-start: 0.5em;
+        margin-block-end: 2em;
+    }
+}
+
+
+

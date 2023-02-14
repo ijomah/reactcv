@@ -9,6 +9,7 @@
     overflow-x: auto;
     scroll-snap-type: inline mandatory;
     scroll-behavior: smooth;
+    margin-block-start: 2em;
 }
 
 .course {

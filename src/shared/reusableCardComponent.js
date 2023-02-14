@@ -19,7 +19,7 @@ function Cardly() {
                 </div>
                 
                 <div className="cardly-footer">
-                    <div>love icon <FontAwesomeIcon icon="fa-regular fa-heart" size="lg" /></div>
+                    <div><FontAwesomeIcon icon="fa-regular fa-heart" size="lg" /></div>
                 </div>
             </div>
         </div>

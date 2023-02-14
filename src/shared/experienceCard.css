@@ -1,0 +1,11 @@
+.industry, .location, .date-yr, .tasks {
+    width: 1.5em;
+}
+
+.bullet {
+    width: 1.5em;
+}
+
+.x-card .tasks-detail {
+    margin-inline-start: 2em;
+}
