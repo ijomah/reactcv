@@ -1,0 +1,11 @@
+.projects {
+    width: 75%;
+    height: 20em;
+    margin-inline: 2em;
+}
+
+.proj1 img {
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: contain;
+}
