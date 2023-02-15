@@ -15,7 +15,6 @@
 .course {
     flex-shrink: 0;
     /* width: 400px;
-    height: 550px;
     border-radius: 10px;
     margin-inline-start: 10px;
     background-size: cover;
@@ -23,7 +22,10 @@
     background-position: center center; */
     flex-basis: 25em;
     scroll-snap-align: start;
-    background-color: #0e0f13;
+}
+
+.course-body {
+    height: 55vh;
 }
 
 img {

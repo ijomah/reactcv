@@ -10,6 +10,7 @@ import ExperienceCard from "../../shared/experienceCard";
 import Educate from "./edu/educationCard";
 //import FunFact from "./carousals/funFacts";
 import FirstView from "./sideBar/firstView/firstViewport";
+import ProjectStuff from "./carousals/projectCarousal";
 
 
 function MainArticle() {
@@ -44,11 +45,6 @@ function MainArticle() {
             </section>
 
             <section className="carousal">
-                <h2>PROJECT</h2>
-                
-            </section>
-
-            <section className="carousal">
                 <BooksRead />
             </section>
 
@@ -56,6 +52,12 @@ function MainArticle() {
                 
             </section>
             <Courses />
+
+            <section className="carousal">
+                <h2>PROJECT</h2>
+                
+            </section>
+            <ProjectStuff />
         </article>
     )
 }
