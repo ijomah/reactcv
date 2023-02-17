@@ -4,7 +4,7 @@ import { faAngular, faBootstrap, faCss3, faHtml5, faJsSquare, faReact, faSass, f
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faCircle, faDiagramProject, faFaceSmileWink, faGreaterThan, faLink, faPlay, faSchool, faUpDownLeftRight, faUserGraduate, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCircle, faDiagramProject, faFaceSmileWink, faGreaterThan, faLink, faPlay, faSchool, faUpDownLeftRight, faUserGraduate, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faClock, faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faIndustry, faStar, faLocationDot, faStarHalf, } from "@fortawesome/free-solid-svg-icons";
@@ -43,6 +43,7 @@ library.add(
     faUpDownLeftRight,
     faSchool,
     faUserGraduate,
+    faBars,
 
     //Decorated icons
     faCircle,

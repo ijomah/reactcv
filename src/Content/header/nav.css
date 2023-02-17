@@ -11,9 +11,70 @@ nav div {
     margin: 0;
 }
 
-.nav-link {
+.nav-link:link {
     text-decoration: none;
     color: #0ECAEB;
     font-size: larger;
     font-weight: 800;
+} 
+
+.nav-link:visited {
+    color: gray;
+    border-right: 2px solid #0ECAEB;
+}
+
+.nav-link:hover {
+    color: #4a5354;
+    border-left: 2px solid #0ECAEB;
+}
+
+.nav-link:active {
+    color: #eb1212;
+    border-bottom: 2px solid #0ECAEB;
+}
+
+nav :nth-of-type(6) {
+    display: none;
+}
+
+@media screen and (max-width: 804px) {
+    nav :nth-of-type(6) {
+        display: block;
+        float: left;
+        border: 2px solid #0ECAEB;     
+    }
+
+    /* styling the icon and div content */
+    nav .icon-menu, nav :nth-of-type(6) div {
+        color: #0ECAEB;
+        font-size: 2ch;
+        margin-inline: 0.1em;
+        margin-block-start: 0.08em;
+    }
+}
+
+@media screen and (max-width: 804px) {
+    nav .nav-link:not(:last-child) {
+        display: none;
+    }
+
+    nav.responsive {
+        position: relative;
+    }
+
+    nav.responsive :nth-of-type(6){
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav.responsive .nav-link {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    nav.responsive {
+        flex-direction: column;
+    }
 }

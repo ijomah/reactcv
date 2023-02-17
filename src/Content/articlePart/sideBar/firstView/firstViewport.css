@@ -26,4 +26,146 @@
     row-gap: 1em;
 }
 
+@media screen and (max-width: 1024px){
+    .grided-view {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 5em;
+    
+    }
+    
+.left-icons {
+    padding-inline-start: 3.3em;
 
+}
+
+.right-icons {
+    width: min-content;
+    padding-inline-start: 5em;
+}
+
+.right-icons :nth-child(2), .left-icons :nth-child(2) {
+    /* width: 50%; */
+    margin-inline-start: 7em;
+}
+}
+
+@media screen and (max-width: 860px){
+    .grided-view {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2em;
+    
+    }
+
+    .left-icons {
+        padding-inline-start: 0.3em;
+    
+    }
+    
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 5em;
+    }
+    
+    .right-icons :nth-child(2), .left-icons :nth-child(2) {
+        /* width: 50%; */
+        margin-inline-start: 7em;
+    }
+}
+
+@media screen and (max-width: 590px){
+    
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 3em;
+    }
+}
+
+@media screen and (max-width: 556px){
+    
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 1em;
+    }
+}
+
+@media screen and (max-width: 528px){
+    .grided-view {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1em;
+        margin-inline: 0.5em;
+    
+    }
+
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 1em;
+        margin-inline: 0.2;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .grided-view {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1em;
+        margin-inline: 0.5em;
+    
+    }
+
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 1em;
+        margin-inline: 0.2;
+    }
+
+    .right-icons :nth-child(2), .left-icons :nth-child(2) {
+        margin-inline-start: 6em;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 0.5em;
+        margin-inline: 0.2;
+    }
+
+    .right-icons :nth-child(2), .left-icons :nth-child(2) {
+        margin-inline-start: 4em;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 1em;
+        margin-inline: 0.2;
+    }
+
+    .right-icons :nth-child(2), .left-icons :nth-child(2) {
+        margin-inline-start: 2em;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .grided-view {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1em;
+        margin-inline: 0.05em;
+    
+    }
+
+    .right-icons {
+        width: min-content;
+        padding-inline-start: 0.4em;
+        margin-inline: 0.2;
+    }
+
+    .right-icons :nth-child(2), .left-icons :nth-child(2) {
+        margin-inline-start: 1em;
+    }
+}

@@ -10,9 +10,7 @@ class Content extends React.Component {
     render() {
         return (
             <div>
-                {/* <header>
-                    <Navigation />
-                </header> */}
+        
                 
                 <main>
                     <MainArticle />

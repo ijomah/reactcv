@@ -19,7 +19,7 @@ class FooterPart extends React.Component {
         //     }
         // }
         return(
-                    <footer className="foot">
+                    <div className="foot">
                         <div>&copy; Copy Right 2023</div>
                         <div>Me Inc</div>
                         
@@ -48,7 +48,7 @@ class FooterPart extends React.Component {
                             </button>
                         </div>
                         
-                    </footer>
+                    </div>
                 )
            
         }
