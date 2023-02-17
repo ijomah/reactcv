@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3e4b2df.css",
+    "main.js": "/static/js/main.043ba329.js",
+    "static/js/787.4573b362.chunk.js": "/static/js/787.4573b362.chunk.js",
+    "static/media/jc1.jpg": "/static/media/jc1.2b989674298f53fc1f59.jpg",
+    "static/media/sucexLawByHill.jpg": "/static/media/sucexLawByHill.9b9495c6ee6ccca26779.jpg",
+    "static/media/goals.png": "/static/media/goals.9a59047ee455062085b3.png",
+    "static/media/weatherApp.jpg": "/static/media/weatherApp.f212d35f50284c9b510d.jpg",
+    "static/media/simpleWithAngular.jpg": "/static/media/simpleWithAngular.b8e83cb13d787f1e4091.jpg",
+    "static/media/schresult.jpg": "/static/media/schresult.f2805b69628dd903b520.jpg",
+    "static/media/searchbarwithgoogle.jpg": "/static/media/searchbarwithgoogle.507f010e5a917e73abe0.jpg",
+    "static/media/courseFigma.jpg": "/static/media/courseFigma.b488c57e62b410bf2d71.jpg",
+    "static/media/courseDSA.jpg": "/static/media/courseDSA.0825cb689137366a6c53.jpg",
+    "static/media/courseNGfunda.jpg": "/static/media/courseNGfunda.a1a49cf69c420755fd8a.jpg",
+    "static/media/courseHTML.jpg": "/static/media/courseHTML.ccb9cc98aa201752bb5b.jpg",
+    "static/media/courseGit.jpg": "/static/media/courseGit.9e15f70064d46e1cf1eb.jpg",
+    "static/media/courseCss.jpg": "/static/media/courseCss.5b8c7565e53e3daa012f.jpg",
+    "static/media/twitterClone.jpg": "/static/media/twitterClone.6794d6dc55a7f5f489cc.jpg",
+    "static/media/habit.jpg": "/static/media/habit.48a09b20d11fa1cde8e2.jpg",
+    "index.html": "/index.html",
+    "main.a3e4b2df.css.map": "/static/css/main.a3e4b2df.css.map",
+    "main.043ba329.js.map": "/static/js/main.043ba329.js.map",
+    "787.4573b362.chunk.js.map": "/static/js/787.4573b362.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3e4b2df.css",
+    "static/js/main.043ba329.js"
+  ]
+}
