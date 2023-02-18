@@ -1,0 +1,5 @@
+.quotes figure, .quotes blockquote {
+    margin-inline: 0.5em;
+    margin-block: 0.5em;
+}
+

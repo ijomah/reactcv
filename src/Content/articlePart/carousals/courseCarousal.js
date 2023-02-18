@@ -21,7 +21,7 @@ function Courses() {
                     {/* <p>Courses extract</p> */}
                 </div>
                 <div className="course-footer">
-                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@ function Courses() {
                     {/* <p>Courses extract</p> */}
                 </div>
                 <div className="course-footer">
-                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ function Courses() {
                     {/* <p>Courses extract</p> */}
                 </div>
                 <div className="course-footer">
-                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
                 </div>
             </div>
 
@@ -60,7 +60,7 @@ function Courses() {
                     {/* <p>Courses extract</p> */}
                 </div>
                 <div className="course-footer">
-                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@ function Courses() {
                     {/* <p>Courses extract</p> */}
                 </div>
                 <div className="course-footer">
-                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
                 </div>
             </div>
 
@@ -86,7 +86,7 @@ function Courses() {
                     {/* <p>Courses extract</p> */}
                 </div>
                 <div className="course-footer">
-                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                    <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
                 </div>
             </div>
 

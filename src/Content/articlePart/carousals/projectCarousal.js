@@ -25,7 +25,7 @@ function ProjectStuff() {
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
-                <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
             </div>
             </div>
 
@@ -43,7 +43,7 @@ function ProjectStuff() {
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
-                <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
             </div>
             </div>
             
@@ -61,7 +61,7 @@ function ProjectStuff() {
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
-                <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
             </div>
             </div>
 
@@ -79,7 +79,7 @@ function ProjectStuff() {
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
-                <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
             </div>
             </div>
 
@@ -97,7 +97,7 @@ function ProjectStuff() {
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
-                <div> <FontAwesomeIcon icon="fa-regular fa-heart" /></div>
+                <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
             </div>
             </div>
 
