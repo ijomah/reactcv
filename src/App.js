@@ -13,7 +13,7 @@ import Courses from './Content/articlePart/carousals/courseCarousal';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Navigation />}>
+      <Route path='/reactcv' element={<Navigation />}>
         <Route index element={<Content />}/>
         <Route path='/course' element={<Courses />} />
         <Route path='/book' element={<BooksRead />} />
