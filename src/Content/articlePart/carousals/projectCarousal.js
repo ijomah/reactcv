@@ -1,7 +1,7 @@
 import React from "react";
 import './projects.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import weatherApp from '../../../images/weatherApp.jpg';
 import simpleWithAngular from '../../../images/simpleWithAngular.jpg';
 import twitterClone from '../../../images/twitterClone.jpg';

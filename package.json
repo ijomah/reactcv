@@ -1,6 +1,7 @@
 {
   "name": "reactcv",
   "version": "0.1.0",
+  "homepage": "https://ijomah.github.io/reactcv",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
