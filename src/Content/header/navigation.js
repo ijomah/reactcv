@@ -28,16 +28,16 @@ function Navigation() {
             <Fragment>
                 <header>
                     <nav ref={elem}>
-                        <Link className="nav-link" href="/" to='/'>
+                        <Link className="nav-link" href="/" to='/reactcv'>
                             <div>Home <FontAwesomeIcon icon="fa-solid fa-house " color="white" /></div>
                         </Link>
-                        <Link className="nav-link" href="#course" to='/course'>
+                        <Link className="nav-link" href="#course" to='course'>
                             <div>Courses <FontAwesomeIcon icon="fa-solid fa-graduation-cap" color="white" /></div>
                         </Link>
-                        <Link className="nav-link" href="#book" to='/book'>
+                        <Link className="nav-link" href="#book" to='book'>
                             <div>Books <FontAwesomeIcon icon="fa-solid fa-book" color="white" /></div>
                         </Link>
-                        <Link className="nav-link" href="#fun" to='/fun'>
+                        <Link className="nav-link" href="#fun" to='fun'>
                             <div>Fun Fact <FontAwesomeIcon icon="fa-solid fa-face-smile-wink" color="white" /></div>
                         </Link>
                         <Link className="nav-link" href="#project" to='project'>
