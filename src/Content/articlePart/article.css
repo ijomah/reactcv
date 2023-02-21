@@ -46,10 +46,10 @@ aside {
     left: calc(100% - 25em);
 }
 
-h3 {
+/* h3 {
     width: 6em;
     margin: 0px;
-}
+} */
 
 .viewport-page {
     height: 95.40vh;

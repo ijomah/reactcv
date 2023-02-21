@@ -1,6 +1,6 @@
 .books {
     width: 25em;
-    margin-block-start: 5em;
+    margin-block-start: 3em;
     margin-inline-start: 3em;
     margin-block-end: 2em;
 }
@@ -16,7 +16,7 @@
 }
 
 .book-body {
-    padding-inline: 4em;
+    padding-inline: 3em;
 }
 
 .book-body img {

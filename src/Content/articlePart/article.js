@@ -3,7 +3,7 @@ import React from "react";
 import AsideQoutes from "./sideBar/quotes";
 import './article.css'
 import BooksRead from "./carousals/bookCarousal";
-import SkillCard from "../../shared/skillCard";
+import SkillCard from "./skills/skillCard";
 import jc1 from '../../images/jc1.jpg';
 import Courses from "./carousals/courseCarousal";
 import ExperienceCard from "../../shared/experienceCard";
@@ -45,16 +45,17 @@ function MainArticle() {
             </section>
 
             <section className="carousal">
+            <h2>BOOKS</h2>
                 <BooksRead />
             </section>
 
             <section className="carousal">
-                
+            <h2>COURSES</h2>
             </section>
             <Courses />
 
             <section className="carousal">
-                <h2>PROJECT</h2>
+                <h2>PROJECTS</h2>
                 
             </section>
             <ProjectStuff />

@@ -5,6 +5,11 @@
 
 }
 
+.middle-intro h3, .middle-intro h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
 .left-icons {
     padding-inline-start: 4.3em;
 
