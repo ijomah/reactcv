@@ -9,7 +9,7 @@ import Courses from "./carousals/courseCarousal";
 import ExperienceCard from "../../shared/experienceCard";
 import Educate from "./edu/educationCard";
 //import FunFact from "./carousals/funFacts";
-import FirstView from "./sideBar/firstView/firstViewport";
+import FirstView from "./firstView/firstViewport";
 import ProjectStuff from "./carousals/projectCarousal";
 
 
@@ -56,7 +56,6 @@ function MainArticle() {
 
             <section className="carousal">
                 <h2>PROJECTS</h2>
-                
             </section>
             <ProjectStuff />
         </article>

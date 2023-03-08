@@ -16,6 +16,16 @@ aside {
     padding-inline: 0.5em;
 }
 
+@media (max-width: 426px) {
+    aside {
+        background-color: #4a5354;
+        float: right;
+        width: 92%;
+        margin-inline: 0.5em;
+        padding-inline: 0.5em;
+    }
+}
+
 .profile-pix {
     height: 25em;
 }
