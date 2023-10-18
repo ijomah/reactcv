@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/reactcv/static/css/main.15f84fb4.css",
-    "main.js": "/reactcv/static/js/main.2eaa62b3.js",
+    "main.css": "/reactcv/static/css/main.97ba4a85.css",
+    "main.js": "/reactcv/static/js/main.57c37d79.js",
     "static/js/787.4573b362.chunk.js": "/reactcv/static/js/787.4573b362.chunk.js",
     "static/media/sucexLawByHill.jpg": "/reactcv/static/media/sucexLawByHill.9b9495c6ee6ccca26779.jpg",
     "static/media/goals.png": "/reactcv/static/media/goals.9a59047ee455062085b3.png",
+    "static/media/flightRecReact.png": "/reactcv/static/media/flightRecReact.fca73027d69255c1316d.png",
     "static/media/jc1.jpg": "/reactcv/static/media/jc1.e4bf8d4a3b9bed078b38.jpg",
-    "static/media/weatherApp.jpg": "/reactcv/static/media/weatherApp.f212d35f50284c9b510d.jpg",
     "static/media/simpleWithAngular.jpg": "/reactcv/static/media/simpleWithAngular.b8e83cb13d787f1e4091.jpg",
+    "static/media/flightRecNg.png": "/reactcv/static/media/flightRecNg.162b219f5c0fb5704279.png",
     "static/media/schresult.jpg": "/reactcv/static/media/schresult.f2805b69628dd903b520.jpg",
     "static/media/searchbarwithgoogle.jpg": "/reactcv/static/media/searchbarwithgoogle.507f010e5a917e73abe0.jpg",
+    "static/media/weatherApp.jpg": "/reactcv/static/media/weatherApp.a8f945e194d60b4cfec1.jpg",
     "static/media/courseFigma.jpg": "/reactcv/static/media/courseFigma.b488c57e62b410bf2d71.jpg",
     "static/media/courseDSA.jpg": "/reactcv/static/media/courseDSA.0825cb689137366a6c53.jpg",
     "static/media/courseNGfunda.jpg": "/reactcv/static/media/courseNGfunda.a1a49cf69c420755fd8a.jpg",
@@ -19,12 +21,12 @@
     "static/media/twitterClone.jpg": "/reactcv/static/media/twitterClone.6794d6dc55a7f5f489cc.jpg",
     "static/media/habit.jpg": "/reactcv/static/media/habit.48a09b20d11fa1cde8e2.jpg",
     "index.html": "/reactcv/index.html",
-    "main.15f84fb4.css.map": "/reactcv/static/css/main.15f84fb4.css.map",
-    "main.2eaa62b3.js.map": "/reactcv/static/js/main.2eaa62b3.js.map",
+    "main.97ba4a85.css.map": "/reactcv/static/css/main.97ba4a85.css.map",
+    "main.57c37d79.js.map": "/reactcv/static/js/main.57c37d79.js.map",
     "787.4573b362.chunk.js.map": "/reactcv/static/js/787.4573b362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15f84fb4.css",
-    "static/js/main.2eaa62b3.js"
+    "static/css/main.97ba4a85.css",
+    "static/js/main.57c37d79.js"
   ]
 }
