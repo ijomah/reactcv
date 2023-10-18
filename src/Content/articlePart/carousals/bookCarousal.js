@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import './books.css';
 import habit from '../../../images/habit.jpg';
@@ -23,9 +23,9 @@ function BooksRead() {
                 </div>
                 <div className="book-body" data-aos="fade-up-right">
                     <img className="seven-habits" src={habit} alt="Books with title as goals" />
-                    <p> 
+                    {/* <p> 
                         <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" />
-                    </p>
+                    </p> */}
                 </div>
                 {/* <div className="book-footer">
                     <i>love icon <FontAwesomeIcon icon="fa-regular fa-heart" /></i>
@@ -41,9 +41,9 @@ function BooksRead() {
                         <h2>Brian Tracy</h2>
                     </div> */}
                 </div>
-                <div className="book-body">
+                <div className="book-body" data-aos="flip-up">
                     <img className="goals" src={goals} alt="Books with title as goals" />
-                    <p><FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></p>
+                    {/* <p><FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></p> */}
                 </div>
                 {/* <div className="book-footer">
                     <i>love icon <FontAwesomeIcon icon="fa-regular fa-heart" /></i>
@@ -59,9 +59,9 @@ function BooksRead() {
                         <h2>Napolean Hill</h2>
                     </div> */}
                 </div>
-                <div className="book-body" data-ao="fade-up-left">
+                <div className="book-body" data-aos="fade-up-left">
                     <img className="sucex-law" src={sucexLawByHill} alt="Books with title as goals" />
-                    <p><FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></p>
+                    {/* <p><FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></p> */}
                 </div>
                 {/* <div className="book-footer">
                     <i>love icon <FontAwesomeIcon icon="fa-regular fa-heart" /></i>

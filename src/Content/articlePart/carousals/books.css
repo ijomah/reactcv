@@ -1,7 +1,7 @@
 .books {
     width: 25em;
     margin-block-start: 3em;
-    margin-inline-start: 3em;
+    margin-inline-start: 0.7em;
     margin-block-end: 2em;
 }
 
@@ -15,10 +15,24 @@
         flex: 1;
 }
 
+.row-it img {
+    height: 15rem;
+    width: 25rem;
+}
+
 .book-body {
-    padding-inline: 3em;
+    padding: 5em;
+    /* margin: 0 auto; */
     border: 2px solid #0ECAEB;
     background-color: #4a5354;
+    border-radius: 10px;
+}
+
+.book-body:hover {
+    padding: 5em;
+    /* margin: 0 auto; */
+    border: 2px dashed #4a5354;
+    background-color: #0ECAEB;
     border-radius: 10px;
 }
 
