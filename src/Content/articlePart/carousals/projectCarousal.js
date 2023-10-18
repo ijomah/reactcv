@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import weatherApp from '../../../images/weatherApp.jpg';
 import simpleWithAngular from '../../../images/simpleWithAngular.jpg';
 import twitterClone from '../../../images/twitterClone.jpg';
+import flightRecReact from '../../../images/flightRecReact.png';
+import flightRecNg from '../../../images/flightRecNg.png';
 import searchbarwithgoogle from '../../../images/searchbarwithgoogle.jpg';
 import schresult from '../../../images/schresult.jpg';
 
@@ -14,14 +16,14 @@ function ProjectStuff() {
             <div className="proj">
                 <div className="proj-head">
                     <div className="proj-title"></div>
-                    <button onClick={()=>window.location.href='https://ijomah.github.io/schresult/'} >Demo</button>
-                    <button onClick={()=>window.location.href='https://github.com/ijomah/schresult'} >
+                    <button onClick={()=>window.location.href='https://ijomah.github.io/twitterLogin-clone/'}>Demo</button>
+                    <button onClick={()=>window.location.href='https://github.com/ijomah/twitterLogin-clone'} >
                                 <FontAwesomeIcon icon="fa-brands fa-github" size="lg" />
                     </button>
-                    {/* <button><Link to='https://github.com/ijomah/searchingbarwithgoogle'>Source Code</Link></button> */}
+                    {/* <Link to='https://github.com/ijomah/twitterLogin-clone'>Source Code</Link> */}
                 </div>
                 <div className="proj-body">
-                    <img src={schresult} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
+                    <img src={twitterClone} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
@@ -50,14 +52,14 @@ function ProjectStuff() {
             <div className="proj">
                 <div className="proj-head">
                     <div className="proj-title"></div>
-                    <button onClick={()=>window.location.href='https://ijomah.github.io/ijomahpaltiel/'}>Demo</button>
-                    <button onClick={()=>window.location.href='https://github.com/ijomah/ijomahpaltiel'} >
+                    <button onClick={()=>window.location.href='https://rxplaneapp.web.app/home'}>Demo</button>
+                    <button onClick={()=>window.location.href='https://github.com/ijomah/react-airport-app'} >
                                 <FontAwesomeIcon icon="fa-brands fa-github" size="lg" />
                     </button>
-                    {/* <button><Link to='https://github.com/ijomah/ijomahpaltiel'>Source Code</Link></button> */}
+                    {/* <button><Link to='https://github.com/ijomah/searchingbarwithgoogle'>Source Code</Link></button> */}
                 </div>
                 <div className="proj-body">
-                    <img src={simpleWithAngular} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
+                    <img src={flightRecReact} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
@@ -68,14 +70,14 @@ function ProjectStuff() {
             <div className="proj">
                 <div className="proj-head">
                     <div className="proj-title"></div>
-                    <button onClick={()=>window.location.href='https://ijomah.github.io/twitterLogin-clone/'}>Demo</button>
-                    <button onClick={()=>window.location.href='https://github.com/ijomah/twitterLogin-clone'} >
+                    <button onClick={()=>window.location.href='https://paltiel-ijomah.web.app/home'}>Demo</button>
+                    <button onClick={()=>window.location.href='https://github.com/ijomah/ng-airport-app'} >
                                 <FontAwesomeIcon icon="fa-brands fa-github" size="lg" />
                     </button>
-                    {/* <Link to='https://github.com/ijomah/twitterLogin-clone'>Source Code</Link> */}
+                    {/* <button><Link to='https://github.com/ijomah/searchingbarwithgoogle'>Source Code</Link></button> */}
                 </div>
                 <div className="proj-body">
-                    <img src={twitterClone} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
+                    <img src={flightRecNg} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">
@@ -94,6 +96,42 @@ function ProjectStuff() {
                 </div>
                 <div className="proj-body">
                     <img src={searchbarwithgoogle} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
+                    {/* <p>Projects</p> */}
+                </div>
+                <div className="proj-footer">
+                <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
+            </div>
+            </div>
+
+            <div className="proj">
+                <div className="proj-head">
+                    <div className="proj-title"></div>
+                    <button onClick={()=>window.location.href='https://ijomah.github.io/ijomahpaltiel/'}>Demo</button>
+                    <button onClick={()=>window.location.href='https://github.com/ijomah/ijomahpaltiel'} >
+                                <FontAwesomeIcon icon="fa-brands fa-github" size="lg" />
+                    </button>
+                    {/* <button><Link to='https://github.com/ijomah/ijomahpaltiel'>Source Code</Link></button> */}
+                </div>
+                <div className="proj-body">
+                    <img src={simpleWithAngular} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
+                    {/* <p>Projects</p> */}
+                </div>
+                <div className="proj-footer">
+                <div> <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></div>
+            </div>
+            </div>
+
+            <div className="proj">
+                <div className="proj-head">
+                    <div className="proj-title"></div>
+                    <button onClick={()=>window.location.href='https://ijomah.github.io/schresult/'} >Demo</button>
+                    <button onClick={()=>window.location.href='https://github.com/ijomah/schresult'} >
+                                <FontAwesomeIcon icon="fa-brands fa-github" size="lg" />
+                    </button>
+                    {/* <button><Link to='https://github.com/ijomah/searchingbarwithgoogle'>Source Code</Link></button> */}
+                </div>
+                <div className="proj-body">
+                    <img src={schresult} loading="lazy" width="400" height="300" alt="Description of weather information by location"></img>
                     {/* <p>Projects</p> */}
                 </div>
                 <div className="proj-footer">

@@ -4,9 +4,23 @@ article {
 }
 article section {
     display: inline-block;
-    width: 70%;
+    width: 100%;
 }
 
+section h2 {
+    border: 2px solid #3bd9f5;
+    width: 20%;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    
+    transform: skew(30deg, 3deg);
+    /* transform: rotate(10deg); */
+}
+
+.cards {
+    width: 70%;
+}
 
 aside {
     background-color: #4a5354;
@@ -28,6 +42,8 @@ aside {
 
 .profile-pix {
     height: 25em;
+    border-radius: 80px;
+    border: 2px dashed #3bd9f5;
 }
 
 /* .clocky {

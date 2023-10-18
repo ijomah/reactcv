@@ -21,7 +21,7 @@ function BooksRead() {
                         <h2>Steven Covey</h2>
                     </div> */}
                 </div>
-                <div className="book-body">
+                <div className="book-body" data-aos="fade-up-right">
                     <img className="seven-habits" src={habit} alt="Books with title as goals" />
                     <p> 
                         <FontAwesomeIcon icon="fa-regular fa-heart" size="2x" />
@@ -59,7 +59,7 @@ function BooksRead() {
                         <h2>Napolean Hill</h2>
                     </div> */}
                 </div>
-                <div className="book-body">
+                <div className="book-body" data-ao="fade-up-left">
                     <img className="sucex-law" src={sucexLawByHill} alt="Books with title as goals" />
                     <p><FontAwesomeIcon icon="fa-regular fa-heart" size="2x" /></p>
                 </div>

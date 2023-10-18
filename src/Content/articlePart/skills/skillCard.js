@@ -1,21 +1,21 @@
 import React from "react";
 import './skillCard.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProgressBar from "../../../shared/progressBar";
 
 class SkillCard extends React.Component {
 
     render() {
         return (
-            <div className="skill-card">
+            <div className="skill-card" data-aos="fade-right">
                 <div className="skill-cardly1">
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
-                    <div className="skill-cardly-body">
+                    <div className="skill-cardly-body" data-aos="fade-right">
                         <div>
                             {/* <img src="" alt="tech-logo" /> */}
-                            <FontAwesomeIcon icon="fa-brands fa-angular" />
+                            {/* <FontAwesomeIcon icon="fa-brands fa-angular" /> */}
                             <span> Angular </span>
                             <ProgressBar className="progress-bar" progressLength={60} height={9} />
                         </div>
@@ -28,14 +28,14 @@ class SkillCard extends React.Component {
 
                         <div>
                             {/* <img src="" alt="tech-logo" /> */}
-                            <FontAwesomeIcon icon="fa-brands fa-bootstrap" />
+                            {/* <FontAwesomeIcon icon="fa-brands fa-bootstrap" /> */}
                             <span> Bootstrap </span>
                             <ProgressBar className="progress-bar" progressLength={70} height={9} />
                         </div>
 
                         <div>
                             {/* <img src="" alt="tech-logo" /> */}
-                            <FontAwesomeIcon icon="fa-brands fa-sass" />
+                            {/* <FontAwesomeIcon icon="fa-brands fa-sass" /> */}
                             <span> Cordova </span>
                             <ProgressBar className="progress-bar" progressLength={80} height={9} />
                         </div>
@@ -43,7 +43,7 @@ class SkillCard extends React.Component {
 
                         <div>
                             {/* <img src="" alt="tech-logo" /> */}
-                            <FontAwesomeIcon icon="fa-brands fa-css3" />
+                            {/* <FontAwesomeIcon icon="fa-brands fa-css3" /> */}
                             <span> CSS3 </span>
                             <ProgressBar className="progress-bar" progressLength={80} height={9} />
                         </div>
@@ -98,7 +98,7 @@ class SkillCard extends React.Component {
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
-                    <div className="skill-cardly-body">
+                    <div className="skill-cardly-body" data-aos="flip-up">
 
                     <div>
                             {/* <img src="" alt="tech-logo" /> */}
@@ -139,7 +139,7 @@ class SkillCard extends React.Component {
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
-                    <div className="skill-cardly-body">
+                    <div className="skill-cardly-body" data-aos="fade-down">
 
                     <div>
                             {/* <img src="" alt="tech-logo" /> */}
@@ -180,7 +180,7 @@ class SkillCard extends React.Component {
                     <div className="skill-cardly-head">
                         <div className="skill-cardly-title"></div>
                     </div>
-                    <div className="skill-cardly-body">
+                    <div className="skill-cardly-body" data-aos="fade-up">
 
                         <div>
                             {/* <img src="" alt="tech-logo" /> */}

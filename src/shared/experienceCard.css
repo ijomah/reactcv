@@ -4,8 +4,101 @@
 
 .bullet {
     width: 1.5em;
+    padding-bottom: 1%;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+@media(max-width: 1180px ) {
+    .bullet {
+        width: 1.5em;
+        padding-bottom: 25px;
+        margin-right: 5px;
+        margin-left: 3px;
+    }
+}
+
+@media(max-width: 850px ) {
+    .tasks-detail div:nth-child(1) :nth-of-type(4) .bullet, 
+    .tasks-detail div:nth-child(2) :nth-of-type(3) .bullet, 
+    .tasks-detail div:nth-child(2) :nth-of-type(5) .bullet {
+        /* background-color: red; */
+        /* width: 1.5em; */
+        padding-bottom: 5px;
+        /* margin-right: 5px; */
+        /* margin-left: 3px; */
+    }
+}
+
+.x-card {
+    border: 2px solid #3bd9f5 ;
+    background-color: #4a5354;
+    border-radius: 10px;
+    /* margin: 0 3px;
+    height: 200px;
+    padding: 2%; */
+}
+
+.x-card:hover {
+    border: 2px dashed #4a5354;
+    background-color: #3bd9f5;
+    border-radius: 10px;
+    /* color: #4a5354; */
 }
 
 .x-card .tasks-detail {
-    margin-inline-start: 2em;
+    margin-inline: 1em;
+
+}
+
+.tasks-detail, .tasks-detail p {
+    display: inline-flex;
+    align-items: flex-end;
+    margin: 0px;
+}
+
+.task-fade-left, .task-fade-right {
+    border: 0px dashed #3bd9f5 ;
+    background-color: #4a5354;
+    border-radius: 10px;
+    margin: 0 3px;
+    height: 50vh;
+    padding: 2%;
+}
+
+@media (max-width: 777px) {
+    .task-fade-left, .task-fade-right {
+        border: 0px dashed #3bd9f5 ;
+        background-color: #4a5354;
+        border-radius: 10px;
+        margin: 0 3px;
+        height: 150vh;
+        padding: 2%;
+    }
+}
+
+.task-fade-right:hover, .task-fade-left:hover {
+    border: 2px dashed #4a5354;
+    background-color: #3bd9f5;
+    border-radius: 10px;
+    color: #4a5354;
+}
+
+.firm-worked {
+    border: 0px dashed #3bd9f5 ;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 5px 1px;
+    /* height: 200px;
+    padding: 2%; */
+}
+
+.firm-worked:hover {
+    border: 0px dashed #4a5354;
+    background-color: transparent;
+    /* background-color: #3bd9f5; */
+    color: #4a5354;
+    /* border-radius: 10px;
+    margin: 5px 1px; */
+    
 }

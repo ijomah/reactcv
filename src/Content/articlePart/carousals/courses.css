@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 1em;
+    gap: 5em;
     overflow-x: auto;
     scroll-snap-type: inline mandatory;
     scroll-behavior: smooth;
@@ -20,16 +20,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; */
+    /* flex-basis: 17px; */
     flex-basis: 25em;
     scroll-snap-align: start;
+    width: 300px;
 }
 
 .course-body {
     height: 55vh;
+    /* width: 300px; */
 }
 
 img {
     max-inline-size: 100%;
     block-size: auto;
     object-fit: contain;
+    /* width: 300px; */
 }
