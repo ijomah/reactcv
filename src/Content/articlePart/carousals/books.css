@@ -56,7 +56,7 @@
     }
 
     .books {
-        width: 15em;
+        width: 100%;
         margin-block-start: 5em;
         margin-inline-start: 0.5em;
         margin-block-end: 2em;

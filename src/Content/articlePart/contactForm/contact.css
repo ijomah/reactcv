@@ -1,6 +1,6 @@
 .contact-form {
     width: 60%;
-    height: 55vh;
+    height: 75vh;
     background-color: #4a5354;
     padding: 1em;
     margin: auto;
@@ -11,7 +11,7 @@
 
 .contact-form:hover {
     width: 60%;
-    height: 55vh;
+    height: 75vh;
     background-color: #3BD9F5;
     border: 2px dashed #4a5354;
     padding: 1em;
@@ -52,6 +52,16 @@ input {
     /* margin-bottom: 80px; */
 }
 
+textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline-color: #3BD9F5;
+}
+
+.longtext {
+    height: 24vh;
+}
 /* input[type=email] {
     width: 20vw;
     transition: width 0.4s ease-in-out;
@@ -69,6 +79,7 @@ button {
     width: 100%;
     /* width: 60px; */
     /* margin: 0.5em; */
-    margin-top: 10px;
+    margin-top: 6px;
+    margin-bottom: 10px;
 }
 

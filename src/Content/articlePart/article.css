@@ -1,6 +1,8 @@
 article {
-    margin-inline: 1em;
+    /* margin-inline: 1em; */
+    margin: 0 auto;
     margin-block-start: 5em;
+    width: 100%;
 }
 article section {
     display: inline-block;
@@ -13,7 +15,7 @@ section h2 {
     margin: 20px auto;
     border-radius: 10px;
     text-align: center;
-    
+    font-size: 3vw;
     transform: skew(30deg, 3deg);
     /* transform: rotate(10deg); */
 }

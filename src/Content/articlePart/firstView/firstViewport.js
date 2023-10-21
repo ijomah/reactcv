@@ -11,8 +11,8 @@ const FirstView = () => {
                 <p><FontAwesomeIcon icon="fa-solid fa-circle" opacity={0.3} className="circle" size="3x" /></p>
             </div>
             <div className="middle-intro">
-                <h3>Hello 
-                    <FontAwesomeIcon icon="fa-solid fa-hand" opacity={1} shake size="2x" color="#ffc83d" />,
+                <h3>Hello, 
+                    <FontAwesomeIcon icon="fa-solid fa-hand" opacity={1} shake size="2x" color="#ffc83d" />
                     <span>&nbsp;</span>
                     <span>meet</span>
                 </h3>

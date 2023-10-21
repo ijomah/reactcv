@@ -19,10 +19,7 @@ class FooterPart extends React.Component {
         //     }
         // }
         return(
-                    <div className="foot">
-                        <div>&copy; Copy Right 2023</div>
-                        <div>Me Inc</div>
-                        
+                    <div className="foot"> 
                         <div>
                             {/* <button onClick={()=>{window.location.href='https://twitter.com/ijomah2'}}>
                                 <FontAwesomeIcon icon="fa-brands fa-facebook" size="lg" />
@@ -48,6 +45,8 @@ class FooterPart extends React.Component {
                             </button>
                         </div>
                         
+                        <div>&copy; Copy Right 2023</div>
+                        <div>Me Inc</div>
                     </div>
                 )
            

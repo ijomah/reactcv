@@ -12,11 +12,12 @@ import Educate from "./edu/educationCard";
 import FirstView from "./firstView/firstViewport";
 import ProjectStuff from "./carousals/projectCarousal";
 import ContactMe from "./contactForm/contact";
-
+import { useMediaQuery } from "@uidotdev/usehooks";
 
 function MainArticle() {
+    const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
     return (
-        <article>
+        <article className={isSmallDevice ? 'active' : ''}>
             {/* <FunFact /> */}
            <section className="viewport-page">
               <FirstView />

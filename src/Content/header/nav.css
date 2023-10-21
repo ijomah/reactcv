@@ -25,7 +25,8 @@ nav div {
 
 .nav-link:focus {
     color: #4a5354;
-    border-top: 2px dashed #0ECAEB;
+    border-left: 2px dashed #0ECAEB;
+    background: linear-gradient(to left, black, #080808, #c5c6c6, white );
 }
 
 .nav-link:hover {

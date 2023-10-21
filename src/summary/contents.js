@@ -12,7 +12,7 @@ class Content extends React.Component {
             <div>
         
                 
-                <main>
+                <main style={{width: '100%'}}>
                     <MainArticle />
                 </main>
 {/* <img src={logo} alt="smiley emoji" width="250" height="250" /> */}
