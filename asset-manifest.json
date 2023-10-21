@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactcv/static/css/main.97ba4a85.css",
-    "main.js": "/reactcv/static/js/main.57c37d79.js",
+    "main.css": "/reactcv/static/css/main.98beb649.css",
+    "main.js": "/reactcv/static/js/main.45e9c4ea.js",
     "static/js/787.4573b362.chunk.js": "/reactcv/static/js/787.4573b362.chunk.js",
     "static/media/sucexLawByHill.jpg": "/reactcv/static/media/sucexLawByHill.9b9495c6ee6ccca26779.jpg",
     "static/media/goals.png": "/reactcv/static/media/goals.9a59047ee455062085b3.png",
@@ -21,12 +21,12 @@
     "static/media/twitterClone.jpg": "/reactcv/static/media/twitterClone.6794d6dc55a7f5f489cc.jpg",
     "static/media/habit.jpg": "/reactcv/static/media/habit.48a09b20d11fa1cde8e2.jpg",
     "index.html": "/reactcv/index.html",
-    "main.97ba4a85.css.map": "/reactcv/static/css/main.97ba4a85.css.map",
-    "main.57c37d79.js.map": "/reactcv/static/js/main.57c37d79.js.map",
+    "main.98beb649.css.map": "/reactcv/static/css/main.98beb649.css.map",
+    "main.45e9c4ea.js.map": "/reactcv/static/js/main.45e9c4ea.js.map",
     "787.4573b362.chunk.js.map": "/reactcv/static/js/787.4573b362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ba4a85.css",
-    "static/js/main.57c37d79.js"
+    "static/css/main.98beb649.css",
+    "static/js/main.45e9c4ea.js"
   ]
 }
