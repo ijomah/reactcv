@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import "./contact.css";
 import TextInput from "../../../shared/textInput";
 import { formSubmitApi } from "../../../formApi/api";
+//import { AlertIcon, AlertTitle, AlertDescription, Alert } from "@chakra-ui/alert";
+
 
 const ContactMe = () => {
+    const [alartUseer, setAlartUser] = useState(false);
     const [error, setError] = useState({});
     const [name, setName] = useState({
         id: null,
@@ -14,7 +17,7 @@ const ContactMe = () => {
     });
 
     const handleChange = ({target}) => {
-        console.log(target);
+        // console.log(target);
         setName({...name, [target.name]: target.value});
     }
 
@@ -30,9 +33,17 @@ const ContactMe = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         formSubmitApi("https://formkeep.com/f/93105d647cb1", name)
-        console.log('err', error);
+        // console.log('err', error);
         if(!isFormValid()) return;
-        console.log(name);
+        setName({
+            id: null,
+            first_name: null || "",
+            last_name: null || "",
+            email: null || "",
+            message: null || ""
+        })
+        setAlartUser(true)
+        // console.log(name);
         // setName((name) => {
         //     // Object.values(e.target)
         //     let valu = ''
@@ -90,8 +101,8 @@ const ContactMe = () => {
                     </div>
 
                     <div className="form-group longtext">
-                        <label htmlFor="message" id="message">Message:</label>
-                        <textarea onChange={handleChange} value={name.message} rows={6} cols={31} name="message" className="form-control"/>
+                        <label htmlFor="message" >Message:</label>
+                        <textarea onChange={handleChange} value={name.message} rows={6} cols={31} id="message" name="message" className="form-control"/>
                         {!name.message && ((error) && (<div style={{borderBottomRightRadius: 5, borderBottomLeftRadius: 5,marginLeft: 80, backgroundColor: '#f79595'}}>{error.message}</div>))}
                     </div>
                     <div>
@@ -99,7 +110,13 @@ const ContactMe = () => {
                         <button>Cancel</button>
                     </div>
                 </form>
-                
+                {alartUseer && (<div style={{margin: '0 auto', textAlign: 'center'}}>Form submitted. Thanks!</div>)}
+                {/* <Alert status='success'>
+                    <AlertIcon  />
+                    <AlertTitle mr={2}>Data sent!</AlertTitle>
+                    <AlertDescription>Thanks for reaching out</AlertDescription>
+                    <CloseButton position='absolute' right='8px' top='8px' />
+                </Alert> */}
             </div>
         </div>
     )

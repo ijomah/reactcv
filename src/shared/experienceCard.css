@@ -66,7 +66,29 @@
     padding: 2%;
 }
 
-@media (max-width: 777px) {
+@media (min-width: 361px) and (max-width: 742px) {
+    .task-fade-left, .task-fade-right {
+        border: 0px dashed #3bd9f5 ;
+        background-color: #4a5354;
+        border-radius: 10px;
+        margin: 0 3px;
+        height: 137vh;
+        padding: 2%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 742px) {
+    .task-fade-left, .task-fade-right {
+        border: 0px dashed #3bd9f5 ;
+        background-color: #4a5354;
+        border-radius: 10px;
+        margin: 0 3px;
+        height: 40rem;
+        padding: 2%;
+    }
+}
+
+@media (max-width: 360px) {
     .task-fade-left, .task-fade-right {
         border: 0px dashed #3bd9f5 ;
         background-color: #4a5354;

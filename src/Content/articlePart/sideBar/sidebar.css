@@ -7,6 +7,9 @@
     margin-block: 0.5em;
 }
 
+.quotes{
+    width: 100%;
+}
 /* @media (max-width: 426px) {
     .quotes {
         width: 10em;

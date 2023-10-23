@@ -14,7 +14,7 @@ function Navigation() {
     //const [menuState, toggleMenuState ] = useState(0)
 
     const toggleMenu = () => {
-        console.log("elememt ", elem.current);
+        // console.log("elememt ", elem.current);
         if(elem.current.className === "") {
             elem.current.className += "responsive";
         } else {

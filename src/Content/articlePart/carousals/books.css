@@ -16,12 +16,14 @@
 }
 
 .row-it img {
-    height: 15rem;
-    width: 25rem;
+    /* height: 15rem;
+    width: 25rem; */
+    height: 50rem;
+    width: 50rem;
 }
 
 .book-body {
-    padding: 5em;
+    padding: 2em;
     /* margin: 0 auto; */
     border: 2px solid #0ECAEB;
     background-color: #4a5354;
@@ -61,7 +63,28 @@
         margin-inline-start: 0.5em;
         margin-block-end: 2em;
     }
+
+    .row-it img {
+        /* align-self: center; */
+        margin: 0 auto;
+    }
 }
 
 
+/* @media (min-width: 440) and (max-width: 767) {
+    .row-it {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .book-body {
+        padding-inline: 1em;
+    }
+
+    .books {
+        width: 100%;
+        margin-block-start: 5em;
+        margin-inline-start: 0.5em;
+        margin-block-end: 2em;
+    }
+} */

@@ -12,25 +12,27 @@ import Educate from "./edu/educationCard";
 import FirstView from "./firstView/firstViewport";
 import ProjectStuff from "./carousals/projectCarousal";
 import ContactMe from "./contactForm/contact";
-import { useMediaQuery } from "@uidotdev/usehooks";
+// import { useMediaQuery } from "@uidotdev/usehooks";
 
 function MainArticle() {
-    const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
+    //const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
     return (
-        <article className={isSmallDevice ? 'active' : ''}>
+        <article 
+            //className={isSmallDevice ? 'active' : ''}
+        >
             {/* <FunFact /> */}
            <section className="viewport-page">
               <FirstView />
            </section>
 
-           <div data-aos="fade-left">
+           <div className="article-aside-quotes" data-aos="fade-left">
                 <aside>
                         <AsideQoutes />
                 </aside>
             </div>
             
             <section className="cards">
-                <div data-aos="fade-right">
+                <div className="cards-img" data-aos="fade-right">
                     <img className="profile-pix" src={jc1} alt="site owner"  />
                 </div>
               
@@ -63,7 +65,7 @@ function MainArticle() {
 
             <section className="carousal">
                 <div data-aos="zoom-in-right">
-                    <h2>BOOKS</h2>
+                    <h2 className="book">BOOKS</h2>
                 </div>
                 <BooksRead />
             </section>

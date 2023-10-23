@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.foot div:nth-child(4), .foot div:nth-child(5) {
+    padding-top: 10px;
+}
+
 .foot div {
     margin: 1em;
 }

@@ -16,6 +16,7 @@ const TextInput = (props) => {
                     className="form-control"  
                     name={props.name}
                     error={props.error}
+                    autoComplete="true"
                 />
             </div>
             {!props.value && ((props.error) && (<div style={{borderBottomRightRadius: 5, borderBottomLeftRadius: 5,marginLeft: 80, backgroundColor: '#f79595'}}>{props.error}</div>))}

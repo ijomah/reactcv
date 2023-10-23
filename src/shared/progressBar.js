@@ -4,7 +4,8 @@ const ProgressBar = ({progressLength, height} ) => {
     const parentCase = {
         height: height,
         width: '100px',
-        backgroundColor: '#4a5354',
+        // backgroundColor: '#4a5354',
+        backgroundColor: 'black',
         borderRadius: 40,
         marginInline: 0.5,
         marginBlock: 2
@@ -13,13 +14,14 @@ const ProgressBar = ({progressLength, height} ) => {
     const childCase = {
         height: '100%',
         width: `${progressLength}%`,
-        backgroundColor: '#3BD9F5',
+        // backgroundColor: '#3BD9F5',
+        backgroundColor: 'white',
         borderRadius: 40,
         textAlign: 'right'
     };
 
     const progressText = {
-        color: 'black',
+        color: 'white',
         paddingInline: 3,
         paddingBlock: 0.001,
         fontWeight: 900
